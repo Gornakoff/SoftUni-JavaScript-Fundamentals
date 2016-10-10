@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monthly Calendar</title>
+    <style>
+        .prev-month, .next-month { color: #CCC }
+        .today { font-weight: bold; background: #DDD; }
+        .title { background: #AAAAFF; margin: 10px 0; padding:5px }
+        table { border: 1px solid #CCC;}
+        td { text-align: center; }
+        #calendarCode { width: 100%; }
+    </style>
+    <script>
+        function calendar([day, month, year]) {
+            // TODO: return the HTML text holding the calendar table
+            [day, month, year] = [day, month, year].map(Number);
+
+            let prev = 'class="prev-month"';
+            let next = 'class="next-month"';
+            let today = 'class="today"';
+
+            let weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            let daysInMonth = [30, 28, 31, 30, 31, 30, 30, 31, 30, 31, 30, 31];
+
+            if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+                daysInMonth[1] = 29;
+            }
+
+            let datePrevMonth = new Date(year, month - 1, day);
+            let currentDate = new Date(year, month, day);
+            datePrevMonth.setDate(0);
+            let dayOfWeekPrevMonth = datePrevMonth.getDay();
+            let lastDayPrevMonth = datePrevMonth.getDate();
+            let lastDayCurrentMonth = currentDate.getDate(currentDate.setDate(0));
+
+            let html = '<table>\n';
+            html += '<tr>';
+            //html += '<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>\n';
+            for (let days = 0; days < weekDays.length; days++) {
+
+                html += `<th>${weekDays[days]}</th>`;
+            }
+            html += '</tr>\n';
+
+
+            // print thr days of the previous month
+            let printFirstDateOfPreviousMonth = lastDayPrevMonth;
+
+            if (dayOfWeekPrevMonth != 6) {
+                printFirstDateOfPreviousMonth -= dayOfWeekPrevMonth;
+
+                html += '<tr>';
+                for (let day = printFirstDateOfPreviousMonth; day <= lastDayPrevMonth; day++) {
+                    html += `<td ${prev}>${day}</td>`;
+                }
+            }
+
+            // print the days of the current month
+            let dayOfWeekCurrentMonth = dayOfWeekPrevMonth + 1;
+
+            for (let start = 1; start <= lastDayCurrentMonth; start++) {
+                if ((dayOfWeekCurrentMonth + start - 1) % 7 == 6) {
+                    if (start == day) {
+                        html += `<td ${today}>${start}</td></tr>\n`;
+                    } else {
+                        html += `<td>${start}</td></tr>\n`;
+                    }
+                } else if ((dayOfWeekCurrentMonth + start - 1) % 7 == 0) {
+                    if (start == day) {
+                        html += `<tr><td ${today}>${start}</td>`;
+                    } else {
+                        html += `<tr><td>${start}</td>`;
+                    }
+                } else {
+                    if (start == day) {
+                        html += `<td ${today}>${start}</td>`;
+                    } else {
+                        html += `<td>${start}</td>`;
+                    }
+                }
+                if (start == day) {
+
+                }
+            }
+
+            // print the days of the next month
+            let dayOfWeekNextMonth = (dayOfWeekCurrentMonth + lastDayCurrentMonth) % 7;
+            let lastPrintDay = 7 - dayOfWeekNextMonth;
+
+            if (dayOfWeekNextMonth != 0) {
+                for (let lastPrint = 1; lastPrint <= lastPrintDay; lastPrint++) {
+                    if (lastPrint == lastPrintDay) {
+                        html += `<td ${next}>${lastPrint}</td></tr>\n`;
+                    } else {
+                        html += `<td ${next}>${lastPrint}</td>`;
+                    }
+                }
+            }
+
+            html += '</table>';
+
+            return html;
+        }
+    </script>
+</head>
+
+<body>
+Day: <input id="day" type="number" value="4" />
+Month: <input id="month" type="number" value="9" />
+Year: <input id="year" type="number" value="2016" />
+<input type="button" value="Show"
+       onclick="let calendarHTML =
+            calendar([document.getElementById('day').value,
+                document.getElementById('month').value,
+                document.getElementById('year').value]);
+            document.getElementById('calendar').innerHTML = calendarHTML;
+            document.getElementById('calendarCode').innerText = calendarHTML" />
+<div class="title">Calendar:</div>
+<div id="calendar">Calendar will be shown here</div>
+<div class="title">HTML:</div>
+<textarea rows="12" id="calendarCode"></textarea>
+</body>
+
+</html>
