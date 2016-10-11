@@ -13,6 +13,7 @@ function scoreToHTML(input) {
     }
     result += `</table>`;
 
+    // HTML ESCAPE ============================
     function htmlEscape(text) {
         let map = {
             '"': '&quot;',

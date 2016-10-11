@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ea041f1-59b7-4c80-99fd-bf218c4c72cb" name="Default" comment="" />
+    <list default="true" id="5ea041f1-59b7-4c80-99fd-bf218c4c72cb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js" afterPath="$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.JavaScript-Objects/06.system-components.js" afterPath="$PROJECT_DIR$/12.JavaScript-Objects/06.system-components.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.JavaScript-Objects/07.usernames.js" afterPath="$PROJECT_DIR$/12.JavaScript-Objects/07.usernames.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/12.JavaScript-Objects/08.unique-sequences.js" afterPath="$PROJECT_DIR$/12.JavaScript-Objects/08.unique-sequences.js" />
+    </list>
     <ignored path="01. JavaScript Fundamentals.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01.heroic-inventory.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/01.heroic-inventory.js">
+      <file leaf-file-name="04.store-catalogue.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="4" column="128" selection-start-line="4" selection-start-column="128" selection-end-line="4" selection-end-column="128" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,6 +47,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,7 +87,6 @@
         <option value="$PROJECT_DIR$/10.Strings-and-Regular-Expressions/10.secret-data.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/01.towns-to-JSON.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/02.score-to-HTML.js" />
-        <option value="$PROJECT_DIR$/JSON.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/03.JSON-to-HTML-Table.html" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/03.JSON-to-HTML-table.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/04.sum-by-town.js" />
@@ -89,14 +96,15 @@
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/08.city-markets.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/10.extract-unique-words.js" />
         <option value="$PROJECT_DIR$/11.LAB-JS-Objects/09.lowest-prices-in-cities.js" />
+        <option value="$PROJECT_DIR$/12.JavaScript-Objects/01.heroic-inventory.js" />
+        <option value="$PROJECT_DIR$/JSON.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/02.JSON-table.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/03.cappy-juice.js" />
-        <option value="$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/05.auto-engineering-company.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/06.system-components.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/07.usernames.js" />
         <option value="$PROJECT_DIR$/12.JavaScript-Objects/08.unique-sequences.js" />
-        <option value="$PROJECT_DIR$/12.JavaScript-Objects/01.heroic-inventory.js" />
+        <option value="$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js" />
       </list>
     </option>
   </component>
@@ -112,8 +120,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1680" />
-    <option name="width" value="1409" />
-    <option name="height" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1444" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -165,6 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,40 +210,37 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.6.0" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/usr/bin/git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/gornakov/WebstormProjects/JS Core/01. JavaScript Fundamentals/06.Functions-and-Arrow-Functions/05.modify-average.js" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.09.lowest-prices-in-cities.js">
-    <configuration default="false" name="06.count-words-with-maps.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06.count-words-with-maps.js" working-dir="$PROJECT_DIR$/11.LAB-JS-Objects">
+  <component name="RunManager" selected="Node.js.04.store-catalogue.js">
+    <configuration default="false" name="04.store-catalogue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04.store-catalogue.js" working-dir="$PROJECT_DIR$/12.JavaScript-Objects">
       <method />
     </configuration>
-    <configuration default="false" name="07.population-in-towns.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07.population-in-towns.js" working-dir="$PROJECT_DIR$/11.LAB-JS-Objects">
+    <configuration default="false" name="05.auto-engineering-company.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="05.auto-engineering-company.js" working-dir="$PROJECT_DIR$/12.JavaScript-Objects">
       <method />
     </configuration>
-    <configuration default="false" name="08.city-markets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="08.city-markets.js" working-dir="$PROJECT_DIR$/11.LAB-JS-Objects">
+    <configuration default="false" name="06.system-components.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06.system-components.js" working-dir="$PROJECT_DIR$/12.JavaScript-Objects">
       <method />
     </configuration>
-    <configuration default="false" name="09.lowest-prices-in-cities.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="09.lowest-prices-in-cities.js" working-dir="$PROJECT_DIR$/11.LAB-JS-Objects">
+    <configuration default="false" name="07.usernames.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07.usernames.js" working-dir="$PROJECT_DIR$/12.JavaScript-Objects">
       <method />
     </configuration>
-    <configuration default="false" name="10.extract-unique-words.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="10.extract-unique-words.js" working-dir="$PROJECT_DIR$/11.LAB-JS-Objects">
+    <configuration default="false" name="08.unique-sequences.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="08.unique-sequences.js" working-dir="$PROJECT_DIR$/12.JavaScript-Objects">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -289,19 +297,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.06.count-words-with-maps.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.07.population-in-towns.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.08.city-markets.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.09.lowest-prices-in-cities.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.10.extract-unique-words.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.04.store-catalogue.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.05.auto-engineering-company.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.06.system-components.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.07.usernames.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.08.unique-sequences.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.09.lowest-prices-in-cities.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.10.extract-unique-words.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.08.city-markets.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.07.population-in-towns.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.06.count-words-with-maps.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.04.store-catalogue.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.08.unique-sequences.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.07.usernames.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.06.system-components.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.05.auto-engineering-company.js" />
       </list>
     </recent_temporary>
   </component>
@@ -325,22 +333,23 @@
       <workItem from="1475692735276" duration="20964000" />
       <workItem from="1475763422859" duration="5992000" />
       <workItem from="1475999211836" duration="10074000" />
-      <workItem from="1476094332717" duration="22138000" />
+      <workItem from="1476094332717" duration="31350000" />
+      <workItem from="1476215450543" duration="2364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161928000" />
+    <option name="totallyTimeSpent" value="173504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1409" height="1440" extended-state="6" />
-    <editor active="true" />
+    <frame x="1680" y="23" width="1444" height="1417" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34421575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3358726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1356784" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14465876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -561,13 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09.Arrays-and-Matrices/06.sort-array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08.LAB-Strings-and-RegExp/07.usernames.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -586,23 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings-find-occurences.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,14 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="39" column="161" selection-start-line="39" selection-start-column="161" selection-end-line="39" selection-end-column="161" />
-          <folding>
-            <marker date="1476099489000" expanded="true" signature="136:262" ph="..." />
-            <marker date="1476099489000" expanded="true" signature="655:661" ph="&quot;" />
-            <marker date="1476099489000" expanded="true" signature="682:687" ph="&amp;" />
-            <marker date="1476099489000" expanded="true" signature="708:713" ph="..." />
-            <marker date="1476099489000" expanded="true" signature="734:738" ph="&lt;" />
-            <marker date="1476099489000" expanded="true" signature="759:763" ph="&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="30" column="168" selection-start-line="30" selection-start-column="168" selection-end-line="30" selection-end-column="168" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,70 +659,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/01.heroic-inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="129" selection-start-line="23" selection-start-column="129" selection-end-line="23" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/02.JSON-table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings-find-occurences.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="101" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/03.cappy-juice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09.Arrays-and-Matrices/06.sort-array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/07.usernames.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/08.unique-sequences.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="126" selection-start-line="8" selection-start-column="126" selection-end-line="8" selection-end-column="126" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/06.system-components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="36" column="412" selection-start-line="36" selection-start-column="412" selection-end-line="36" selection-end-column="412" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/05.auto-engineering-company.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="23" column="163" selection-start-line="23" selection-start-column="163" selection-end-line="23" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/08.unique-sequences.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/04.store-catalogue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/03.cappy-juice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/02.JSON-table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.JavaScript-Objects/01.heroic-inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="128" selection-start-line="4" selection-start-column="128" selection-end-line="4" selection-end-column="128" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
